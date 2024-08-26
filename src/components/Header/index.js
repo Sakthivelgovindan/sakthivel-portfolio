@@ -26,15 +26,14 @@ class Header extends React.Component {
               this.navigateToComponent("home");
             }}
           >
-            <li className="headerMenuTitle headerMenuActive">Welcome</li>
+            <li className="headerMenuTitle headerMenuActive">Sakthivel Govinthan</li>
           </ul>
         </div>
         <div className={"headerRight"}>
           <ul className={"headerMenuList"}>
             <li
-              className={`headerMenuTitle ${
-                activeTab === "home" ? "headerMenuActive" : ""
-              }`}
+              className={`headerMenuTitle ${activeTab === "home" ? "headerMenuActive" : ""
+                }`}
               onClick={() => {
                 this.navigateToComponent("home");
               }}
@@ -42,9 +41,8 @@ class Header extends React.Component {
               Home
             </li>
             <li
-              className={`headerMenuTitle ${
-                activeTab === "about" ? "headerMenuActive" : ""
-              }`}
+              className={`headerMenuTitle ${activeTab === "about" ? "headerMenuActive" : ""
+                }`}
               onClick={() => {
                 this.navigateToComponent("about");
               }}
@@ -52,9 +50,8 @@ class Header extends React.Component {
               About
             </li>
             <li
-              className={`headerMenuTitle ${
-                activeTab === "work" ? "headerMenuActive" : ""
-              }`}
+              className={`headerMenuTitle ${activeTab === "work" ? "headerMenuActive" : ""
+                }`}
               onClick={() => {
                 this.navigateToComponent("work");
               }}
@@ -62,9 +59,8 @@ class Header extends React.Component {
               Work
             </li>
             <li
-              className={`headerMenuTitle ${
-                activeTab === "contact" ? "headerMenuActive" : ""
-              }`}
+              className={`headerMenuTitle ${activeTab === "contact" ? "headerMenuActive" : ""
+                }`}
               onClick={() => {
                 this.navigateToComponent("contact");
               }}

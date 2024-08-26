@@ -24,6 +24,7 @@ class Home extends React.Component {
           <img
             src={dynamicHomeImages[Math.floor(Math.random() * 8) + 0]}
             className={"homeImage"}
+            alt="Sakthivel Govinthan"
           />
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import profilePic from "./../../../assets/png/profile2.png";
 import { dynamicProfileImages } from "./../../../utils";
 import "./index.css";
 
@@ -13,14 +12,16 @@ class About extends React.Component {
             <img
               src={dynamicProfileImages[Math.round(Math.random())]}
               className={"profileImage"}
+              alt="Sakthivel Govinthan"
             />
           </div>
           <div className={"aboutNameDetails"}>
-            <p className={"aboutName"}>SAKTHIVEL GOVINDAN</p>
+            <p className={"aboutName"}>SAKTHIVEL GOVINTHAN</p>
             <p className={"aboutRole"}>FULL STACK DEVELOPER</p>
             <a
-              href="https://www.linkedin.com/in/sakthivel-govindan/"
+              href="https://www.linkedin.com/in/sakthivelgovinthan"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin
                 size={25}
@@ -35,7 +36,7 @@ class About extends React.Component {
             <p className={"aboutText"}>About</p>
             <div className={"aboutLine"}></div>
             <p className={"aboutDescription"}>
-              Hi, I'm Sakthivel Govindan. I started my career as a "Full Stack
+              Hi, I'm Sakthivel Govinthan. I started my career as a "Full Stack
               Developer" in DesignQube. Passionate coding enthusiast.
               An effective Logical thinker with Interpersonal, Analytical, and
               problem-solving abilities. I started my development journey in
